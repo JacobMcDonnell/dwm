@@ -111,7 +111,7 @@ struct Client {
 	int bw, oldbw;
 	unsigned int tags;
 	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen, isterminal, noswallow;
-        pid_t pid;
+	pid_t pid;
 	Client *next;
 	Client *snext;
 	Client *swallowing;
