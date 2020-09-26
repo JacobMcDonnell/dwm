@@ -4,21 +4,21 @@
 
 - [actual fullscreen](https://dwm.suckless.org/patches/actualfullscreen/)
 
-- [auto resize](https://dwm.suckless.org/patches/autoresize/)
-
-- [cycle layouts](https://dwm.suckless.org/patches/cyclelayouts/)
+- [columns](https://dwm.suckless.org/patches/columns/)
 
 - [fibonacci layout](https://dwm.suckless.org/patches/fibonacci/)
 
-- [gridmode layout](https://dwm.suckless.org/patches/gridemode/)
+- [gridmode layout](https://dwm.suckless.org/patches/gridmode/)
 
-- [rotate stack](https://dwm.suckless.org/patches/rotatestack/)
+- My keybinds in the patches folder
 
-- [statuscmd signal](https://dwm.suckless.org/patches/statuscmd/)
+- Pywal integration(Modifies xrdb to work with pywal)
+-
+- [stacker](https://dwm.suckless.org/patches/stacker/)
 
 - [swallow](https://dwm.suckless.org/patches/swallow/)
 
-- [useless gap](https://dwm.suckless.org/patches/uselessgaps/)
+- [useless gap](https://dwm.suckless.org/patches/uselessgap/)
 
 - [xrdb](https://dwm.suckless.org/patches/xrdb/)
 
@@ -38,7 +38,7 @@ Users of Arch-based distros can install from the AUR, [dwm-jacob-git](https://au
 
 ## Dependencies
 
-- 'dwmblocks' or some other status bar program
+- `dwmblocks` or some other status bar program
 
 - `dmenu`
 
