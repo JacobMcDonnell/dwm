@@ -12,8 +12,6 @@
 
 - [gridmode layout](https://dwm.suckless.org/patches/gridemode/)
 
-- [restart sig](https://dwm.suckless.org/patches/restartsig/)
-
 - [rotate stack](https://dwm.suckless.org/patches/rotatestack/)
 
 - [statuscmd signal](https://dwm.suckless.org/patches/statuscmd/)
