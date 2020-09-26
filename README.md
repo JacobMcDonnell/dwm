@@ -4,7 +4,7 @@
 
 - [actual fullscreen](https://dwm.suckless.org/patches/actualfullscreen/)
 
-- [columns](https://dwm.suckless.org/patches/columns/)
+- [three columns](http://dwm.suckless.org/patches/three-column/)
 
 - [fibonacci layout](https://dwm.suckless.org/patches/fibonacci/)
 
