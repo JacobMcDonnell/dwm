@@ -13,12 +13,10 @@
 - My keybinds in the patches folder
 
 - Pywal integration(Modifies xrdb to work with pywal)
--
+
 - [stacker](https://dwm.suckless.org/patches/stacker/)
 
 - [swallow](https://dwm.suckless.org/patches/swallow/)
-
-- [useless gap](https://dwm.suckless.org/patches/uselessgap/)
 
 - [xrdb](https://dwm.suckless.org/patches/xrdb/)
 

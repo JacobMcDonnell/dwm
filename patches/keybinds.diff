@@ -32,7 +32,7 @@
  	{ MODKEY,                       XK_Tab,    view,           {0} },
  	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
  	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
-@@ -94,7 +95,26 @@
+@@ -94,7 +95,27 @@
  	TAGKEYS(                        XK_8,                      7)
  	TAGKEYS(                        XK_9,                      8)
  	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
@@ -57,6 +57,7 @@
 +        { MODKEY|Mod1Mask,              XK_v,      spawn,          SHCMD("$TERMINAL -e nvim") },
 +        { MODKEY|Mod1Mask,              XK_c,      spawn,          SHCMD("$TERMINAL -e calc") },
 +	{ MODKEY|Mod1Mask,              XK_m,      spawn,          SHCMD("$TERMINAL -e ncmpcpp") },
++	{ MODKEY|Mod1Mask,              XK_g,      spawn,          SHCMD("games") },
 +};
 
  /* button definitions */
