@@ -122,8 +122,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_q, quit,        {0} },
 	/* Special Commands */
         { MODKEY|ControlMask|ShiftMask,         XK_l,      spawn,          SHCMD("slock") },
-        { MODKEY|ControlMask|ShiftMask,         XK_s,      spawn,          SHCMD("prompt 'Shutdown?' 'sudo shutdown -h now'") },
-        { MODKEY|ControlMask|ShiftMask,         XK_r,      spawn,          SHCMD("prompt 'Reboot?' 'sudo reboot'") },
+        { MODKEY|ControlMask|ShiftMask,         XK_s,      spawn,          SHCMD("shutdownPrompt") },
+        { MODKEY|ControlMask|ShiftMask,         XK_r,      spawn,          SHCMD("rebootPrompt") },
         { MODKEY,                               XK_u,      spawn,          SHCMD("getUnicode") },
         /* Special Keys */
         { 0, XF86XK_AudioMute,                     spawn,          SHCMD("pamixer -t ; pkill -RTMIN+2 dwmblocks") },
@@ -138,9 +138,13 @@ static Key keys[] = {
         { MODKEY|Mod1Mask,              XK_h,      spawn,          SHCMD("$TERMINAL -e htop") },
         { MODKEY|Mod1Mask,              XK_n,      spawn,          SHCMD("$TERMINAL -e newsboat") },
         { MODKEY|Mod1Mask,              XK_v,      spawn,          SHCMD("$TERMINAL -e nvim") },
-        { MODKEY|Mod1Mask,              XK_c,      spawn,          SHCMD("$TERMINAL -e calc") },
+        { MODKEY|Mod1Mask,              XK_c,      spawn,          SHCMD("$TERMINAL -e bc") },
         { MODKEY|Mod1Mask,              XK_m,      spawn,          SHCMD("$TERMINAL -e ncmpcpp") },
         { MODKEY|Mod1Mask,              XK_g,      spawn,          SHCMD("games") },
+        { MODKEY|Mod1Mask,              XK_a,      spawn,          SHCMD("acme") },
+        { MODKEY|Mod1Mask,              XK_o,      spawn,          SHCMD("openBook") },
+        { MODKEY|Mod1Mask,              XK_r,      spawn,          SHCMD("tabbed -c surf -e") },
+
 };
 
 /* button definitions */

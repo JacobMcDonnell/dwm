@@ -32,7 +32,7 @@
  	{ MODKEY,                       XK_Tab,    view,           {0} },
  	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
  	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
-@@ -94,7 +95,27 @@
+@@ -94,7 +95,30 @@
  	TAGKEYS(                        XK_8,                      7)
  	TAGKEYS(                        XK_9,                      8)
  	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
@@ -58,6 +58,9 @@
 +        { MODKEY|Mod1Mask,              XK_c,      spawn,          SHCMD("$TERMINAL -e calc") },
 +	{ MODKEY|Mod1Mask,              XK_m,      spawn,          SHCMD("$TERMINAL -e ncmpcpp") },
 +	{ MODKEY|Mod1Mask,              XK_g,      spawn,          SHCMD("games") },
++       { MODKEY|Mod1Mask,              XK_a,      spawn,          SHCMD("acme") },
++       { MODKEY|Mod1Mask,              XK_o,      spawn,          SHCMD("openBook") },
++       { MODKEY|Mod1Mask,              XK_r,      spawn,          SHCMD("tabbed -c surf -e") },
 +};
 
  /* button definitions */
