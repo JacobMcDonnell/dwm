@@ -88,6 +88,9 @@ static Key keys[] = {
     { 0, XF86XK_AudioMute,                     spawn,          SHCMD("pamixer -t ; pkill -RTMIN+2 dwmblocks") },
     { 0, XF86XK_AudioRaiseVolume,              spawn,          SHCMD("pamixer --allow-boost -i 5; pkill -RTMIN+2 dwmblocks") },
     { 0, XF86XK_AudioLowerVolume,              spawn,          SHCMD("pamixer --allow-boost -d 5; pkill -RTMIN+2 dwmblocks") },
+    { 0, XF86XK_AudioPlay,		               spawn,          SHCMD("mpc toggle") },
+    { 0, XF86XK_AudioPrev,		               spawn,          SHCMD("mpc prev") },
+    { 0, XF86XK_AudioNext,		               spawn,          SHCMD("mpc next") },
 
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
