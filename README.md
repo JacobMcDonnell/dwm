@@ -10,6 +10,8 @@
 
 - [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
 
+- [stacker](https://dwm.suckless.org/patches/stacker/)
+
 ## Keybinds
 
 - **RTFM**
